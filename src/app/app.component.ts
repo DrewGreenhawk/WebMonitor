@@ -10,5 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'DrewBoyFTW';
+  
+  getWeather(event: any) {
+    console.log("getting weather");
+
+
+  }
 }
-//comment 2hgkjhgksfgdhjsg
