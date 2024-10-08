@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "rm -rf dist/; rm -rf ../WebMonitorServer/dist/; ng build; cp -r dist/ ../WebMonitorServer/.;"
   },
   "private": true,
   "dependencies": {
